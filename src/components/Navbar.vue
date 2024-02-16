@@ -1,30 +1,32 @@
 <template>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3">
-    <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="d-flex flex-column align-items-center">
-        <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+  <nav class="navbar navbar-expand-sm navbar-dark blackBg">
+    <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }"> -->
+    <div class="col-12 d-flex justify-content-evenly">
+      <div class="text-white">
+        <h4> Streak</h4>
       </div>
-    </router-link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+      <div>
+        <h4 class="grayBg text-center">VL</h4>
+      </div>
+      <div class="text-white">
+        <h4>Member Status</h4>
+      </div>
+    </div>
+    <!-- </router-link> -->
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto">
-        <li>
-          <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
-            About
-          </router-link>
-        </li>
-      </ul>
-      <!-- LOGIN COMPONENT HERE -->
+
+      LOGIN COMPONENT HERE
       <div>
         <button class="btn text-light" @click="toggleTheme">
           <i class="mdi" :class="theme == 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"></i>
         </button>
       </div>
       <Login />
-    </div>
+    </div> -->
   </nav>
 </template>
 
@@ -73,5 +75,15 @@ a:hover {
   nav {
     height: 64px;
   }
+}
+
+.blackBg {
+  background-color: black;
+}
+
+.grayBg {
+  background-color: rgb(180, 180, 180);
+  width: 10dvw;
+  height: 6dvh;
 }
 </style>

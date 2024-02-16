@@ -7,6 +7,17 @@
         </div>
       </section>
     </div>
+
+    <div class="container-fluid">
+      <section class="row mx-5 mt-2 d-flex justify-content-between">
+        <div class="col-5 text-center grayBg2">
+          <h1>Recommended</h1>
+        </div>
+        <div class="col-5 mx-5 text-center grayBg2">
+          <h1>Favorites</h1>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -44,5 +55,11 @@ export default {
 .grayBg {
   background-color: rgb(180, 180, 180);
   height: 55dvh;
+}
+
+.grayBg2 {
+  background-color: rgb(180, 180, 180);
+  height: 55dvh;
+  width: 40dvw;
 }
 </style>
