@@ -1,5 +1,13 @@
 <template>
-  <div></div>
+  <div>
+    <div class="container-fluid">
+      <section class="row">
+        <div class="col-12">
+          <h1 class="d-flex justify-content-center grayBg mt-3">Challenges</h1>
+        </div>
+      </section>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -31,5 +39,10 @@ export default {
       object-position: center;
     }
   }
+}
+
+.grayBg {
+  background-color: rgb(180, 180, 180);
+  height: 55dvh;
 }
 </style>
