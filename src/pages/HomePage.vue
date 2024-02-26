@@ -14,7 +14,7 @@
           <h1>Recommended</h1>
         </div>
         <div class="col-5 mx-5 text-center grayBg2">
-          <h1>Favorites</h1>
+          <h1>Favorites! I am not sure how much more Ill do this.</h1>
         </div>
       </section>
     </div>
