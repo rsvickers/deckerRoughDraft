@@ -11,7 +11,7 @@
     <div class="container-fluid">
       <section class="row mx-5 mt-2 d-flex justify-content-between">
         <div class="col-5 text-center grayBg2">
-          <h1>Recommended</h1>
+          <h1>Recommended. I need to find a project for me.</h1>
         </div>
         <div class="col-5 mx-5 text-center grayBg2">
           <h1>Favorites! I am not sure how much more Ill do this.</h1>
