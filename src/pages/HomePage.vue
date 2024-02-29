@@ -15,7 +15,7 @@
         </div>
         <div class="col-5 mx-5 text-center grayBg2">
           <!-- <h1>Favorites! I am not sure how much more Ill do this.</h1> -->
-          <p>May have to start a new project if I do not get paid.</p>
+          <!-- <p>May have to start a new project if I do not get paid.</p> -->
         </div>
       </section>
     </div>
