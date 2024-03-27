@@ -17,7 +17,7 @@
           <h1>Favorites! I am not sure how much more Ill do this.</h1>
           <p>May have to start a new project if I do not get paid.</p>
           I really need to find a project
-          maybe a dnd app?
+          <!-- maybe a dnd app? -->
         </div>
       </section>
     </div>
